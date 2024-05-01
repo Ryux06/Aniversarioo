@@ -1,0 +1,253 @@
+:root {
+    --Fuente: 'Inter';
+    --color1: #fff;
+    --color2: ;
+    --color3: ;
+}
+
+.fondo {
+    background: linear-gradient(255deg, #db4b4b 8%, #be4bdb 59%, #9775fa 94%) space;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.fondo-dos {
+    background: linear-gradient(255deg, #db4b4b 8%, #be4bdb 59%, #9775fa 94%) space;
+    width: 100%;
+    height: 100%;
+    
+}
+
+/* .contenedor1 {
+    padding-left: 200px;
+    padding-right: 200px ;
+} */
+
+.contenedor1 h1, .contenedor1 p {
+    color: var(--color1);
+}
+
+.primero {
+    text-decoration: none;
+    background-position: center;
+    height: 200px;
+    background-image: url('../img/Portada/imagen-portada-uno.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    cursor: pointer;
+    border: #ffffff00 0px none;
+    transition: 60ms;
+    width: 49%;
+}
+
+.primero div {
+    height: 100%;
+    background-color: #9775fa70;
+    border-radius: 15px;
+    transition: 200ms;
+}
+
+.primero p {
+    color: var(--color1);
+    font-weight: bold;
+    font-family: var(--Fuente);
+}
+
+.primero:hover {
+    /* transform: scale(0.95,0.95); */
+    border: #fff 4px solid;
+}
+
+.primero div:hover {
+    background-color: #9775fa00;
+    #pe {
+        color: #9775fa00;
+    }
+}
+
+/* .primero p:hover {
+    color: #9775fa00;
+} */
+
+
+
+
+
+.segundo {
+    text-decoration: none;
+    background-position: center;
+    height: 200px;
+    background-image: url('../img/Portada/WhatsApp\ Image\ 2024-04-30\ at\ 10.47.27\ PM\ \(2\).jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    cursor: pointer;
+    border: #ffffff00 0px none;
+    transition: 60ms;
+    width: 49%;
+}
+
+.segundo div {
+    height: 100%;
+    background-color: #9775fa70;
+    border-radius: 15px;
+    transition: 200ms;
+}
+
+.segundo p {
+    color: var(--color1);
+    font-weight: bold;
+    font-family: var(--Fuente);
+}
+
+.segundo:hover {
+    /* transform: scale(0.95,0.95); */
+    border: #fff 4px solid;
+}
+
+.segundo div:hover {
+    background-color: #9775fa00;
+    #pee {
+        color: #9775fa00;
+    }
+}
+
+
+
+
+
+
+
+.tercero {
+    text-decoration: none;
+    background-position: center;
+    height: 200px;
+    background-image: url('../img/Portada/WhatsApp\ Image\ 2024-04-30\ at\ 10.47.25\ PM\ \(1\).jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    cursor: pointer;
+    border: #ffffff00 0px none;
+    transition: 60ms;
+    width: 49%;
+}
+
+.tercero div {
+    height: 100%;
+    background-color: #9775fa70;
+    border-radius: 15px;
+    transition: 200ms;
+}
+
+.tercero p {
+    color: var(--color1);
+    font-weight: bold;
+    font-family: var(--Fuente);
+}
+
+.tercero:hover {
+    /* transform: scale(0.95,0.95); */
+    border: #fff 4px solid;
+}
+
+.tercero div:hover {
+    background-color: #9775fa00;
+    #peee {
+        color: #9775fa00;
+    }
+}
+
+
+
+
+
+
+.destacados {
+    text-decoration: none;
+    background-position: center;
+    height: 200px;
+    background-image: url('../img/Portada/imagen-destacados.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    cursor: pointer;
+    border: #ffffff00 0px none;
+    transition: 60ms;
+    width: 49%;
+}
+
+.destacados div {
+    height: 100%;
+    background-color: #9775fa70;
+    border-radius: 15px;
+    transition: 200ms;
+}
+
+.destacados p {
+    color: var(--color1);
+    font-weight: bold;
+    font-family: var(--Fuente);
+}
+
+.destacados:hover {
+    /* transform: scale(0.95,0.95); */
+    border: #fff 4px solid;
+}
+
+.destacados div:hover {
+    background-color: #9775fa00;
+    #peeee {
+        color: #9775fa00;
+    }
+}
+
+
+
+
+
+
+.flecha {
+    /* background-color: #fff; */
+    color: #fff;
+    width: 40px;
+    height: 40px;
+}
+
+h2{
+    font-family: var(--Fuente);
+    color: #fff;
+}
+
+
+
+
+.carta {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 0;
+}
+
+.carta img {
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.carta p {
+    text-align: center;
+    font-family: var(--Fuente);
+}
+
+.parrafo{
+    font-family: var(--Fuente);
+    color: #fff;
+    text-align: center;
+}
+
+.pie {
+    color: #fff;
+    font-family: var(--Fuente);
+    text-align: center;
+}
